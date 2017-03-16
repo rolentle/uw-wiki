@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>(Uncharted Worlds) Wiki – {{ title }}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2|Open+Sans:400,400i,700,700i" />
+    <link rel="stylesheet" href="style.css" />
+    <base href="/uw-wiki/" />
+  </head>
+  <body>
+    <div id="Sidebar">
+      <a href="" id="SiteTitle">(Uncharted Worlds) Wiki</a>
+      <nav>
+        {% capture nav %}
+          {% include nav.md %}
+        {% endcapture %}
+        {{ nav | markdownify }}
+      </nav>
+    </div>
+    <main>
+      <div class="content">
+        <h1 id="PageTitle">{{ page.title }}</h1>
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>

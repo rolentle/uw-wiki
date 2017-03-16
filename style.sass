@@ -1,0 +1,84 @@
+---
+---
+
+@import typography
+@import vars
+
+a
+  color: black
+  transition: color $duration-short ease-out
+  &:hover
+    color: $blue
+
+body
+  background-color: $white
+  color: $dark
+  font-family: 'Open Sans', sans-serif
+  margin: 0
+  > .content
+    padding: $spacing-medium
+    @media screen and (min-width: $break-small)
+      margin: 0 auto
+      max-width: 640px
+
+h1, h2, h3, h4
+  font-family: 'Exo 2', sans-serif
+
+main
+  > .content
+    padding: $spacing-medium
+  @media screen and (min-width: $break-small)
+    height: 100vh
+    margin-left: 300px
+    overflow-y: scroll
+    width: calc(100% - 300px)
+
+ul
+  margin: 0
+  padding-left: $spacing-large
+
+#PageTitle
+  margin-top: 0
+
+#Sidebar
+  background-color: $gray-light
+  border-bottom: 1px solid $gray
+  padding-bottom: $spacing-small
+  position: relative
+  > nav
+    padding: $spacing-small
+    > h4:first-of-type
+      margin-top: $spacing-small
+    > ul
+      list-style: none
+      padding-left: 0
+      > li > ul
+        list-style: none
+        padding-left: $spacing-small
+        > li:before
+          content: "›"
+          padding-right: $spacing-small
+        > li > ul
+          list-style: none
+          padding-left: $spacing-medium
+          > li:before
+            content: "»"
+            padding-right: $spacing-small
+  @media screen and (min-width: $break-small)
+    border-bottom: none
+    border-right: 1px solid $gray
+    height: 100vh
+    left: 0
+    overflow-y: scroll
+    padding-bottom: 0
+    position: absolute
+    top: 0
+    width: 300px
+
+#SiteTitle
+  background-color: #CCC
+  display: block
+  line-height: 2
+  margin-top: 0
+  text-align: center
+  text-decoration: none
