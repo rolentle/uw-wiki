@@ -3,7 +3,7 @@ layout: main
 title: Vastra
 ---
 
-Native planet to the [Kus'lorians](kuslorian-republic) and the first colonial planet for [VSCorp](vscorp).
+Native planet to the [Kus'lorians](kuslorian-republic) and the first colonial planet of [VSCorp](vscorp).
 
 * Mean radius: 7,230 km
 * Surface gravity: 1.05 g

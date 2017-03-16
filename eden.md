@@ -3,6 +3,12 @@ layout: main
 title: Eden
 ---
 
+Widely considered the "center of modern humanity", Eden is the most centrally-located planet within [Standard Space](standard-space).
+
+* Mean radius: 6100 km
+* Surface gravity: 1.0 g
+* Surface temperature: 240–315 K (-33–42 °C / -27–107 °F)
+
 ## Genesis
 
 Once _Salvation_ landed on Eden, the colonists explored the planet's lush fields and beautiful forests. They floated beautiful rivers full of never before seen fish walked through jungles with a new bird, bug, and fauna around every corner.
